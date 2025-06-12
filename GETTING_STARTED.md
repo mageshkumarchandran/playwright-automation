@@ -24,8 +24,8 @@ npm install @faker-js/faker --save-dev
 
   Open the terminal and run below command:
 
-  To run UI -  $ PROJECT_NAME=ui ENV=dev npx playwright test --project=api --grep @AddtoCartFirst
-  To run API -$ PROJECT_NAME=api ENV=dev npx playwright test --project=api --grep @api
+  To run UI -  PROJECT_NAME=ui ENV=dev npx playwright test --project=ui --grep @AddtoCartFirst
+  To run API-  PROJECT_NAME=api ENV=dev npx playwright test --project=api --grep @api
 
   ENV - can be Dev and test
   PROJECT_NAME -api or ui
